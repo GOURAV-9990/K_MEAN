@@ -63,3 +63,7 @@ Install the following libraries before running the scripts:
 
 ```bash
 pip install pandas scikit-learn matplotlib kmodes
+
+## now you can understand whatever i wrote
+ - read again if you dont understand anything
+ 

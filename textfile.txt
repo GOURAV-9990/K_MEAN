@@ -1,0 +1,26 @@
+K-Means and K-Modes are clustering algorithms used in unsupervised machine learning to group data points into clusters based on their similarity.
+
+1. **K-Means Algorithm**:
+    - K-Means is used for clustering numerical data.
+    - It works by minimizing the variance within each cluster.
+    - Steps:
+      1. Initialize `k` cluster centroids randomly.
+      2. Assign each data point to the nearest centroid.
+      3. Recalculate the centroids as the mean of the points in each cluster.
+      4. Repeat steps 2 and 3 until the centroids stabilize or a maximum number of iterations is reached.
+    - It uses Euclidean distance to measure similarity.
+    - K-Means is sensitive to outliers and assumes clusters are spherical.
+
+2. **K-Modes Algorithm**:
+    - K-Modes is used for clustering categorical data.
+    - It minimizes the dissimilarity between data points and cluster modes.
+    - Steps:
+      1. Initialize `k` cluster modes randomly.
+      2. Assign each data point to the cluster with the closest mode (using a dissimilarity measure like Hamming distance).
+      3. Update the modes by finding the most frequent category for each attribute in the cluster.
+      4. Repeat steps 2 and 3 until the modes stabilize or a maximum number of iterations is reached.
+    - K-Modes handles categorical data directly and does not require numerical encoding.
+
+Both algorithms are part of the broader family of clustering techniques and are widely used in data analysis and pattern recognition tasks.
+
+hi
